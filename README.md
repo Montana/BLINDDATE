@@ -44,7 +44,7 @@ You can extract a variable using the extractVariable function (note: this functi
 extractVariable "input.nc" "output.nc" "variableName"
 ```
 
-###Renaming Variables
+## Renaming Variables
 
 You can rename a variable using the renameVariable function (note: this function must be used within the script or extended in your workflow):
 
@@ -56,3 +56,6 @@ Example, (e.g. applying multiple operations):
 ```bash
 ./BLINDDATE input.nc output.nc 'var1=var1+100' 'var2=var2*0.5'
 ```
+## Authors
+
+Michael Mendy (2024)
